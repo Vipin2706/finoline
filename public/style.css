@@ -1,0 +1,342 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background: url(./images/back\ image\ .jpeg);
+    background-repeat: no-repeat;
+    padding: 70px;
+    background-size: cover;
+    height: 100vh;
+}
+header a{
+    color: white;
+    font-weight: bold;
+}
+.head a{
+    font-weight: bold;
+}
+.link{
+    background-color: #0077FF;
+    color: white;
+}
+.main-nav{
+    background-color: #0077FF;
+}
+.start{
+    margin-top: 100px;
+    padding: 10px;
+}
+.main{
+    color: white;
+    font-size: 48px;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+.para{
+    color: white;
+    margin-bottom: 10px;
+}
+.btn-m{
+    border-radius: 0px;
+    color: white;
+    padding: 2%;
+}
+.form{
+    background-color: white;
+    padding: 2%;
+    margin-left: 150px;
+}
+.form h2{
+    font: 30px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+.form input[type=text]{
+    width: 100%;
+    height: 50px;
+    padding: 2%;
+    margin-bottom: 20px;
+}
+.form input[type=tel]{
+    width: 100%;
+    height: 50px;
+    padding: 2%;
+    margin-bottom: 20px;
+}
+.form .btn-two{
+    background-color: green;
+    color: white;
+    border-radius: 0px;
+}
+.form select{
+    margin-bottom: 20px;
+}
+
+/* trust sedction styling goes here  */
+
+.trust{
+    padding: 7%;
+}
+.trust .img-two{
+    height: 60%;
+    width: 60%;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.trust h6{
+     font-weight: bold;
+     font-size: 40px;
+     text-align: center;
+}
+.trust h2{
+    font-size: 58px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.trust p{
+    margin-bottom: 45px;
+}
+.trust .btn-n{
+    border-radius: 0px;
+    color: white;
+    padding: 22px 48px;
+    background-color: green;
+}
+
+/* loan section styling goes here  */
+
+.loans{
+    padding: 8%;
+    background-color: #F4F6F9;
+}
+
+.loans h2{
+    font-size: 54px;
+    color: #204570;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/*broucher section styling goes here */
+.broucher{
+    background-image: url(./images/back2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+}
+.slideshow{
+    
+    padding: 8% 8% 0 8%;
+ 
+}
+.slideshow p{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 46px;
+    color: white;
+}
+.slideshow h6{
+    text-align: center;
+    color: white;
+}
+.broucher .main-no{
+    text-align: center;
+    color: #0BDE8C;
+    font-size: 50px;
+    margin-bottom: 12px;
+}
+.counter-box{
+    background-color:#F4F6F9 ;
+    height: 367px;
+    text-align: center;
+   padding: 20%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+
+/* broucher counter */
+.broucher-counter{
+    width:80%;
+    margin: auto;
+}
+.broucher-counter .col-lg-6{
+    padding:0;
+}
+.broucher-counter .col-lg-6.img-box{
+    background-image: url(./images/old\ man.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.broucher-counter .col-lg-6.img-box-alt{
+    background-image: url(./images/old\ woman.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second-broucher .main-no{
+    text-align: center;
+    color: #0BDE8C;
+    font-size: 50px;
+    margin-bottom: 12px;
+}
+/*broucher 2 styling goes here*/
+.brouchtwo h2{
+    text-align: center;
+    font-size: 54px;
+    margin-bottom: 30px;
+    color: #204570;
+    font-weight: bold;
+}
+
+.brouchtwo .headmain{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.sect{
+    padding: 8%;
+}
+.sect img{
+    height: 100px;
+    width: 100px;
+}
+.card-two{
+    border: none;
+}
+.broucher-counter img{
+    width:77%;
+}
+ .woman-img{
+    margin-left: 310px;
+    margin-bottom: 30px;
+ }
+
+/*faq section styiling goes here*/
+.faq{
+     background-color: #F4F6F9;
+     padding: 7%;
+}
+.faq h2{
+    font-size: 54px;
+    color:#204570;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.faq p{
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+
+
+/* footer section stling goes here  */
+footer{
+    background-color: #204570;
+    display: flex;
+    align-items: center;
+    padding: 10%;
+}
+footer p{
+    color: white;
+    font-size: 19px;
+}
+footer h4{
+    color: white;
+    margin-bottom: 10px;
+}
+footer a{
+    color: white;
+}
+footer input[type=email]{
+    width: 100%;
+    padding: 2%;
+}
+footer button{
+    margin-top: 20px;
+}
+footer .btn-q{
+    background-color: green;
+}
+
+/* laon page styling goes here  */
+.head{
+    background: url(./images/back\ image\ .jpeg);
+    padding: 7%;
+}
+.head h1{
+    margin-top: 30px;
+    font-size: 74px;
+    font-weight: bold;
+    margin-bottom:20px;
+    color: white;
+}
+.head p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.formtwo{
+    padding: 10% 20%;
+}
+.formtwo button{
+    margin-top: 30px;
+}
+.second{
+    margin-top: 30px;
+}
+
+.counter-parent{
+    position:relative;
+}
+.counter{
+   height:170px;
+   width:215px;
+   background-color: dodgerblue; 
+   color:white;
+   position:absolute;
+   left:14px;
+   bottom:0px;
+}
+/*contact page styliung goes here*/
+
+.location{
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+}
+.form-three h2{
+    margin-top: 30px;
+  font-weight: bold;
+  font-size: 35px;
+  color: #204570;
+  text-align: center;
+}
+
+.form-three button{
+    font-size: 20px;
+    background-color: white;
+    color:#3ADF93;
+    padding: 2%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 200px;
+    border-color: #3ADF93;
+
+}
+.form-three button:hover{
+    transition: 2s;
+    background-color: #3ADF93;
+    color: white;
+}
+
+.nav-link{
+    color:#fff;
+}
+
