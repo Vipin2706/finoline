@@ -1,5 +1,5 @@
-require('dotenv').config()
-const express = require("express")
+require('dotenv').config();
+const express = require("express");
 const app = express();
 const bodyparser = require("body-parser")
 const mongoose = require("mongoose")
@@ -171,6 +171,6 @@ app.post("/apply",(req,res)=>{
 
 
 
-app.listen(3000 , ()=>{
+app.listen(process.env.PORT||3000 , ()=>{
     console.log("server started at port:3000")
 })
